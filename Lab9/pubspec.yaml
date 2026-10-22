@@ -1,0 +1,22 @@
+name: lab9_json_storage
+description: Lab 9 assets, local JSON persistence, and CRUD mini database.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.6
+  web: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/items.json

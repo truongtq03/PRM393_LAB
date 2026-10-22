@@ -69,3 +69,42 @@ flutter run
 ```
 
 See `Lab7/README.md` for test cases, screenshots, and submission details.
+
+
+
+## Lab 8
+
+API-powered post list with GET, JSON models, FutureBuilder, loading/error/retry
+states, pull-to-refresh, post details, and an optional POST form.
+
+Run it from the `Lab8` directory:
+
+```powershell
+flutter pub get
+flutter run
+```
+
+See `Lab8/README.md` for requirements, tests, and screenshots.
+
+## Lab 8B
+
+Weather Companion using Open-Meteo REST APIs, city search, typed models,
+three-day forecasts, and practical weather recommendations.
+
+Run it from the `Lab8B` directory:
+
+```powershell
+flutter pub get
+flutter run
+```
+
+See `Lab8B/README.md` for app description, architecture, tests, and screenshots.
+
+## Lab 9
+
+Combined Flutter app for bundled JSON assets, manual JSON save/load, and a local
+CRUD database with search. Native platforms use `File` + `path_provider`; the
+browser preview uses a separate localStorage backend.
+
+Run `flutter pub get` and `flutter run` from `Lab9`. See `Lab9/README.md` for
+requirements, JSON schema, screenshots, verification, and platform limitations.
